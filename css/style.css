@@ -23,6 +23,7 @@ body {
 
 header {
     height: 120%;
+
 }
 
 .logo {
@@ -57,7 +58,7 @@ header {
 }
 
 .container-home {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(104, 74, 255);
 }
 
 .container-posicoes {
@@ -65,8 +66,8 @@ header {
 }
 
 .container-personagens {
-    background-color: #d40707;
-    
+    background-color: #442dd8;
+
 }
 
 .container-verde {
@@ -104,31 +105,39 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 /* -------2 tela---------- */
 
 .container-conteudos {
-    background-color: #f00606;
+    /* background-color: #f00606; */
     display: flex;
     justify-content: center;
     height: auto;
     width: auto;
-   
+
 }
-.personagens{
+
+.personagens {
     margin-top: 3%;
-    background-color: rgb(78, 185, 185);
+    /* background-color: rgb(78, 185, 185); */
     display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
 }
 
 .cards-personagens {
-    background-color: rgb(255, 255, 255);
-    width: 20rem;
-    height: 20rem;
+    background-color: rgb(184, 168, 168);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 80%;
+}
+
+.cards-personagens img {
+    border-radius: 80%;
+
+
 }
