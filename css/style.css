@@ -9,9 +9,7 @@ a {
     text-decoration: none;
 }
 
-ul,
-ol,
-li {
+ul,ol,li {
     list-style: none;
 }
 
@@ -22,12 +20,12 @@ body {
 }
 
 header {
-    height: 120%;
-
+ width: 100%;
+ height: 100%;
 }
 
 .logo {
-    width: 10rem;
+    width: 10%;
 }
 
 .menu-container {
@@ -57,87 +55,11 @@ header {
 
 }
 
-.container-home {
-    background-color: rgb(104, 74, 255);
-}
-
-.container-posicoes {
-    background-color: rgb(98, 98, 253);
-}
-
-.container-personagens {
-    background-color: #442dd8;
-
-}
-
-.container-verde {
-    background-color: rgb(128, 250, 128);
-}
-
-.container-amarelo {
-    background-color: rgb(255, 255, 174);
-}
-
 .elenco {
     width: 100%;
     height: 100%;
 }
 
-/* abaixo home */
-.titulo-jogo {
-    font-size: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f3f3f3;
-    padding-top: 3%;
-}
-
-.subtitulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-}
-
-/* ----------------- */
-.container-home {
-    justify-content: center;
-    align-items: center;
-}
-
-/* -------2 tela---------- */
-
-.container-conteudos {
-    /* background-color: #f00606; */
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: auto;
-
-}
-
-.personagens {
-    margin-top: 3%;
-    /* background-color: rgb(78, 185, 185); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 90px;
-}
-
-.cards-personagens {
-    background-color: rgb(184, 168, 168);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 80%;
-}
-
-.cards-personagens img {
-    border-radius: 80%;
 
 
-}
+
