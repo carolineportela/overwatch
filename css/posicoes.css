@@ -1,23 +1,23 @@
-.TITULO-POSICOES{
+.TITULO-POSICOES {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-
 }
-.TITULO-POSICOES h1{
+
+.TITULO-POSICOES h1 {
     font-size: 6rem;
-
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
 }
-.personagens-info{
-    background-color: rgb(2, 2, 2);
+
+.personagens-info {
+    background-color: rgb(161, 147, 147);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,15 +26,18 @@
     height: 600px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    border-radius: 10%;
-   
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+
 }
-.personagens-info img{
+
+.personagens-info img {
     width: 100%;
     height: 100%;
     border-radius: 100%;
 }
-.card-personagem-info h2{
+
+.card-personagem-info h2 {
     padding-top: 4%;
     display: flex;
     align-items: center;
