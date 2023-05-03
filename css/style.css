@@ -30,16 +30,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 190%; 
     justify-content: space-evenly;
     text-transform: uppercase;
-    color: aqua;
 
 }
 .menu-container a {
     color: rgb(0, 0, 0);
     border-bottom: 4px solid transparent;
     transition: border-color 0.20s;
+    font-weight: bolder;
+    cursor: pointer;
 
 }
 #root {
@@ -51,14 +52,23 @@ header {
     border-bottom: 4px solid #24378d;
 }
 
-@media (max-width:640px) {
+/* @media (max-width:640px) {
     header{
         width: 10%;
         height: 10%;
     }
+    .menu-container a {
+        font-size: 60%;
+    
+    }
+    .menu-container{
+        gap: 10px;
+    }
+    
+    
+  
 
-}
-
+} */
 
 
 

@@ -29,9 +29,10 @@ styles(){
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: bolder;
         color: black;
         font-size: 2rem;
-     
+        
     }
     `
     return css
