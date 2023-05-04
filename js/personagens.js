@@ -23,12 +23,7 @@ const criarCardPersonagem = (card) => {
 
     const containerCard = document.createElement('a')
     containerCard.classList.add('cards-personagens')
-    containerCard.setAttribute('href', '../pages/posicoes.html')
-    containerCard.addEventListener('click', () => {
-        localStorage.setItem('info', informacaoPersonagem.textContent)
-    })
-
-
+    
     const imgPersonagem = document.createElement('img')
     imgPersonagem.classList.add('img-personagem')
     imgPersonagem.src = `${card.portrait}`
@@ -45,7 +40,7 @@ const criarCardPersonagem = (card) => {
     return containerPaizao
 }
 
-const carregarCard = () => {
+ export const carregarCard = () => {
     const elementosDoContainer = document.getElementById('container-personagens')
 
     //esse cards é o do import
@@ -54,4 +49,4 @@ const carregarCard = () => {
     elementosDoContainer.replaceChildren(...personagem)
 }
 
-carregarCard()
+// carregarCard()

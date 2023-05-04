@@ -15,4 +15,4 @@ export const personagensPosicoes = async() => {
 }
 
 
-const info = localStorage.getItem('info')
+// const info = localStorage.getItem('info')

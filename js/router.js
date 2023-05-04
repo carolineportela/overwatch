@@ -1,12 +1,11 @@
 'use strict'
+import { carregarCard } from "./personagens.js"
 
 //routes é um objeto
 const routes = {
-    '/':         '/pages/home.html',
-    '/personagens': '/pages/personagens.html',
+    '/':        {html: '/pages/home.html'} ,
+    '/personagens': {html: '/pages/personagens.html', js: carregarCard},
     '/posicoes':     '/pages/posicoes.html'
-   
-
 }
 
 const route = async () => {
@@ -22,7 +21,7 @@ const route = async () => {
     console.log(path);
 
     //to falando pro fetch ir la em routes e pegar a posicao path que são alguma das paginas
-    const response = await  fetch(routes[path])
+    const response = await  fetch(routes[path].html)
 
     //linha abaixo pega o conteudo de cada página
     const html = await response.text()
@@ -33,7 +32,7 @@ const route = async () => {
     document.getElementById('root').innerHTML = html
 
 
-
+        routes[path].js()
 }
 
 
