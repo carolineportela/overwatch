@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/home.css">
     <script src="./components/footer.js"></script>
     <script src="./js/app.js" defer type="module"></script>
-    <script src="./js/personagens.js" defer type="module"></script>
+    <script src="./js/posicoes.js" defer type="module"></script>
     <title>Overwatch</title>
 </head>
 
@@ -37,62 +37,60 @@
 
             <div id="main">
                 <div id="left">
-                    <div id="logo">
-                        <img src="https://us.battle.net/forums/static/images/game-logos/game-logo-overwatch.png"
-                            alt="" />
-                        <div id="version">1.0.0.0 - 00000</div>
+                  <div id="logo">
+                    <img src="https://us.battle.net/forums/static/images/game-logos/game-logo-overwatch.png" alt="" />
+                  </div>
+                  <div id="menus">
+                    <canvas id="menu-highlight" width="800" height="600"></canvas>
+                    <div class="italic highlight" onmouseover="highlight(this, event)">
+                      highlights
                     </div>
-                    <div id="menus">
-                        <canvas id="menu-highlight" width="800" height="600"></canvas>
-                        <div class="italic highlight" onmouseover="highlight(this, event)">
-                            highlights
-                        </div>
-                        <div class="italic" onmouseover="highlight(this, event)">
-                            play
-                        </div>
-                        <div class="italic" onmouseover="highlight(this, event)">
-                            training
-                        </div>
-                        <div class="italic" onmouseover="highlight(this, event)">
-                            hero gallery
-                        </div>
-                        <div class="italic" onmouseover="highlight(this, event)">
-                            loot box
-                        </div>
-                        <div class="normal">
-                            SOCIAL
-                        </div>
-                        <div class="normal">
-                            CAREER PROFILE
-                        </div>
-                        <div class="normal">
-                            OPTIONS
-                        </div>
-                        <div class="normal">
-                            EXIT GAME
-                        </div>
+                    <div class="italic" onmouseover="highlight(this, event)">
+                      play
                     </div>
-                    <div id="chat">
-                        <div id="chat-log">
-                            <div class="message">[Genji]: I need healing!</div>
-                        </div>
-                        <div id="chat-input">
-                            <div id="channel">[General]:</div>
-                            <input id="text" type="text"></input>
-                        </div>
-                        <div id="enter">
-                            PRESS ENTER TO CHAT
-                        </div>
+                    <div class="italic" onmouseover="highlight(this, event)">
+                      training
                     </div>
+                    <div class="italic" onmouseover="highlight(this, event)">
+                      hero gallery
+                    </div>
+                    <div class="italic" onmouseover="highlight(this, event)">
+                      loot box
+                    </div>
+                    <div class="normal">
+                      SOCIAL
+                    </div>
+                    <div class="normal">
+                      CAREER PROFILE
+                    </div>
+                    <div class="normal">
+                      OPTIONS
+                    </div>
+                    <div class="normal">
+                      EXIT GAME
+                    </div>
+                  </div>
+                  <div id="chat">
+                    <div id="chat-log">
+                   
+                    </div>
+                    <div id="chat-input">
+                   
+                      <input id="text" type="text"></input>
+                    </div>
+                    <div id="enter">
+                   
+                    </div>
+                  </div>
                 </div>
                 <div id="player">
-
                 </div>
                 <div id="hero">
-                    <div id="hero-name">TRACER</div>
-                    <div id="hero-unlocks"><span>74</span>/76 UNLOCKS</div>
+                  <div id="hero-name">TRACER</div>
+                  <div id="hero-unlocks"><span>74</span>/76 UNLOCKS</div>
                 </div>
-            </div>
+              </div>
+          
 
 
         </div>

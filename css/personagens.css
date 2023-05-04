@@ -4,11 +4,17 @@ header {
    }
 
 body {
-    height: 100vh;
+    height: auto;
     background-image: url("../img/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
   }
 .container-conteudos {
     /* background-color: #f00606; */
@@ -16,6 +22,7 @@ body {
     justify-content: center;
     height: auto;
     width: auto;
+    
 }
 .TITULO-POSICOES{
     display: flex;
@@ -29,9 +36,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 90px;
 }
 
 .cards-personagens {
