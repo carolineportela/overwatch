@@ -6,12 +6,6 @@ const cards = await carregarCards()
 
 const criarCardPersonagem = (card) => {
 
-    //identificar personagem pelo name
-    const informacaoPersonagem = document.createElement('span')
-    informacaoPersonagem.classList.add('info')
-    informacaoPersonagem.textContent = card.name
-
-
     const containerPaizao = document.createElement('div')
     containerPaizao.classList.add('container-personagens')
 
@@ -21,17 +15,31 @@ const criarCardPersonagem = (card) => {
     const containerPersonagens = document.createElement('div')
     containerPersonagens.classList.add('personagens')
 
-    const containerCard = document.createElement('a')
+    const containerCard = document.createElement('div')
     containerCard.classList.add('cards-personagens')
     
     const imgPersonagem = document.createElement('img')
     imgPersonagem.classList.add('img-personagem')
     imgPersonagem.src = `${card.portrait}`
 
+    const containerNomePosicao = document.createElement('div')
+
+
+    const nome = document.createElement('p')
+    nome.classList.add = ('p-nome')
+    nome.textContent = `Name: ${card.name}`
+
+    const posicao = document.createElement ('p')
+    posicao.classList.add = ('p-posicao')
+    posicao.textContent = `Role: ${card.role}`
+    console.log(posicao);
+
     containerPaizao.append(containerConteudos)
-    containerConteudos.append(containerPersonagens)
+    containerConteudos.append(containerPersonagens, containerNomePosicao)
     containerPersonagens.append(containerCard)
     containerCard.append(imgPersonagem)
+    containerNomePosicao.append(nome, posicao)
+
 
     //teste
     const info = document.createElement('span')

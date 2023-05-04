@@ -5,7 +5,7 @@ import { carregarCard } from "./personagens.js"
 const routes = {
     '/':        {html: '/pages/home.html'} ,
     '/personagens': {html: '/pages/personagens.html', js: carregarCard},
-    '/posicoes':     '/pages/posicoes.html'
+    '/posicoes':     {html: '/pages/posicoes.html'}
 }
 
 const route = async () => {
