@@ -1,11 +1,13 @@
 'use strict'
 import { carregarCard } from "./personagens.js"
+import { carregarMapa } from "./posicoes.js"
+
 
 //routes é um objeto
 const routes = {
     '/':        {html: '/pages/home.html'} ,
     '/personagens': {html: '/pages/personagens.html', js: carregarCard},
-    '/posicoes':     {html: '/pages/posicoes.html'}
+    '/posicoes':     {html: '/pages/posicoes.html',js: carregarMapa}
 }
 
 const route = async () => {

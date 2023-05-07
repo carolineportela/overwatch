@@ -1,4 +1,29 @@
 body{
     background-image: url("../img/fundo.jpg");
 }
+.container-posicoes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container-conteudos{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    height: 80%;
+    justify-content:center;
+    align-items: center;
 
+}
+.card-mapas{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card-mapas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}

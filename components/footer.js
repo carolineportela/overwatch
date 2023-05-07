@@ -4,7 +4,7 @@ class footer extends HTMLElement {
     constructor() {
         super()
         this.shadow = this.attachShadow({ mode: 'open' })   
-        this.copyright = 'Desenvolvido por Caroline Portela | 2023'
+        this.copyright = 'Developed by Caroline Portela | 2023'
     }
 
     static get observedAttributes(){
