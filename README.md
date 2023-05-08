@@ -1,4 +1,6 @@
-# overwhatch
+# Overwatch
+
+![](https://user-images.githubusercontent.com/110353130/236910486-0661c575-a222-4fd6-8a72-0a5fa97b3992.PNG)
 
 Site desenvolvido para ser utilizado com uma API pública trazendo assim ensinamentos aos alunos sobre components, rotas e como consumir uma API onde não se pode mexer no Back-End.
 <br>
@@ -14,8 +16,8 @@ Site desenvolvido para ser utilizado com uma API pública trazendo assim ensinam
 
 <br>
 
-- [Link - Figma](https://www.figma.com/file/6T2rWzI13cxQ0G4bVqGYmx/Untitled?type=design&node-id=0-1&t=bH3s0VQr1zKXhaDH-0)
-- [Link - API](https://overfast-api.tekrop.fr/#tag/Heroes/operation/list_heroes_heroes_get)
+## [Link - Figma](https://www.figma.com/file/6T2rWzI13cxQ0G4bVqGYmx/Untitled?type=design&node-id=0-1&t=bH3s0VQr1zKXhaDH-0)
+## [Link - API](https://overfast-api.tekrop.fr/#tag/Heroes/operation/list_heroes_heroes_get)
 
 
 <br>
@@ -36,7 +38,7 @@ Site desenvolvido para ser utilizado com uma API pública trazendo assim ensinam
 <br>
 
 # Autor
-Caroline Portela|
+Caroline Portela
 
 <br>
 
