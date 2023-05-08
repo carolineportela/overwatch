@@ -52,23 +52,12 @@ header {
     border-bottom: 4px solid #24378d;
 }
 
-/* @media (max-width:640px) {
-    header{
-        width: 10%;
-        height: 10%;
-    }
+@media (max-width:640px) {
+   
     .menu-container a {
-        font-size: 60%;
-    
+        font-size: 60%;   
     }
-    .menu-container{
-        gap: 10px;
-    }
-    
-    
-  
-
-} */
+}
 
 
 

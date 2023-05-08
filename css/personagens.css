@@ -6,9 +6,6 @@ header {
 body {
     height: auto;
     background-image: url("../img/fundo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   .container{
@@ -23,9 +20,7 @@ body {
     height: auto;
     width: auto;
     flex-direction: column;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 p{
     color: #fff;
@@ -67,12 +62,16 @@ p{
 }
 
 @media (max-width:640px) {
-    .personagens {
+    .container-personagens {
         grid-template-columns: repeat(1, 1fr);
-        gap: 2%;
+     
     }
     .footer-components{
         font-size: 100rem;
+    }
+    .cards-personagens img {
+       width: 100%;
+       height: 100%;
     }
 
 }

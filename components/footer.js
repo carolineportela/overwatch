@@ -31,7 +31,7 @@ styles(){
         align-items: center;
         font-weight: bolder;
         color: black;
-        font-size: 2rem;
+        font-size: 150%;
         
     }
     `
