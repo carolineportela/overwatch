@@ -1,18 +1,21 @@
 header {
     width: 100%;
     height: 100%;
-   }
+}
 
 body {
     height: auto;
-    background-image: url("../img/fundo.jpg");
-  }
+    /* background-image: url("../img/fundo.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  .container{
+.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-  }
+}
+
 .container-conteudos {
     /* background-color: #f00606; */
     display: flex;
@@ -20,14 +23,17 @@ body {
     height: auto;
     width: auto;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
 }
-p{
-    color: #fff;
+
+p {
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
 }
-.TITULO-POSICOES{
+
+.TITULO-POSICOES {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +47,7 @@ p{
     width: auto;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .cards-personagens {
@@ -52,7 +58,8 @@ p{
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.807);
     cursor: pointer;
 }
-.p-nome{
+
+.p-nome {
     width: 2rem;
     height: 2rem;
 }
@@ -64,17 +71,20 @@ p{
 @media (max-width:640px) {
     .container-personagens {
         grid-template-columns: repeat(1, 1fr);
-     
+
     }
-    .footer-components{
+
+    .footer-components {
         font-size: 100rem;
     }
+
     .cards-personagens img {
-       width: 100%;
-       height: 100%;
+        width: 100%;
+        height: 100%;
     }
 
 }
+
 @media (max-width:740px) {
     .personagens {
         grid-template-columns: repeat(1, 1fr);

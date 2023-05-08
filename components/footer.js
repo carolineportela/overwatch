@@ -30,7 +30,7 @@ styles(){
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 150%;
         
     }

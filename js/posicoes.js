@@ -12,12 +12,20 @@ const getMapas = (mapa) => {
     const cardMapa = document.createElement('div')
     cardMapa.classList.add('card-mapas')
 
+    const nome = document.createElement('span')
+    nome.classList.add('nome-mapa')
+    nome.textContent = `${mapa.name}`
+
     const imgMapa = document.createElement('img')
     imgMapa.classList.add('img-mapa')
     imgMapa.src = `${mapa.screenshot}`
 
+    const localizacao = document.createElement('span')
+    localizacao.classList.add('localizacao')
+    localizacao.textContent = `${mapa.location}`
+
     containerConteudos.append(cardMapa)
-    cardMapa.append(imgMapa)
+    cardMapa.append(nome,imgMapa,localizacao)
 
     return containerConteudos
 }
