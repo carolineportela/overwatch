@@ -35,8 +35,8 @@ const criarCardPersonagem = (card) => {
     console.log(posicao);
 
     containerPaizao.append(containerConteudos)
-    containerConteudos.append(containerPersonagens, containerNomePosicao)
-    containerPersonagens.append(containerCard)
+    containerConteudos.append(containerPersonagens)
+    containerPersonagens.append(containerCard,containerNomePosicao)
     containerCard.append(imgPersonagem)
     containerNomePosicao.append(nome, posicao)
 
